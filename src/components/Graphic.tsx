@@ -63,7 +63,7 @@ export const Graphic = memo(function Graphic({
 
   if (dataBar) {
     return (
-      <ResponsiveContainer width="100%" height={400}>
+      <ResponsiveContainer width="100%" height={300}>
         <BarChart
           data={dataBar}
           margin={{ top: 20, right: 30, left: 20, bottom: 30 }}
