@@ -318,7 +318,7 @@ export function App() {
               id="slide1"
               className="carousel-item relative w-full h-full flex flex-col"
             >
-              <div className="col-start-1 col-end-1 row-start-1 row-end-2 flex flex-col h-full w-full justify-center items-center p-2">
+              <div className="flex flex-col h-full w-full justify-center items-center p-2">
                 <h2 className="text-2xl text-text ml-3">
                   {language === "pt-br" ? "Resultado Final" : "Result Final"}
                 </h2>
@@ -328,7 +328,7 @@ export function App() {
                   <Graphic dataPie={dadosRosca}></Graphic>
                 )}
               </div>
-              <div className="col-start-1 col-end-1 row-start-2 row-end-3 flex flex-col h-full w-full justify-center items-center p-2">
+              <div className="flex flex-col w-full h-full  justify-center items-center p-2">
                 <h2 className="text-2xl text-text ml-3">
                   {language === "pt-br" ? "Progressão" : "Progression"}
                 </h2>
@@ -358,7 +358,7 @@ export function App() {
               className="carousel-item relative w-full h-full flex justify-center items-center"
             >
               <div className="max-h-140 overflow-auto">
-                <table className="border  border-separate border-spacing-0">
+                <table className="border border-separate border-spacing-0">
                   <thead>
                     <tr>
                       <th className="border border-border text-text pl-8 pr-8 sticky top-0 z-10 bg-secondary">
