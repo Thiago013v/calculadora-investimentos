@@ -104,7 +104,7 @@ export function App() {
           onSubmit={handleSubmit(onSubmit)}
         >
           <form className="flex flex-col h-full w-full justify-between gap-2">
-            <div className="flex flexr-row justify-center items-center self-start gap-4">
+            <div className="flex flex-row items-center self-start gap-4">
               <div className="dropdown">
                 <button tabIndex={0} role="button">
                   <GiHamburgerMenu className="text-3xl cursor-pointer" />
@@ -143,7 +143,7 @@ export function App() {
                   </div>
                 </div>
               </div>
-              <h1 className="text-[1.2rem] text-text">
+              <h1 className="text-[1.2rem] text-text self-start">
                 {language === "pt-br"
                   ? "Calculadora de Investimentos"
                   : "Investment Calculator"}
