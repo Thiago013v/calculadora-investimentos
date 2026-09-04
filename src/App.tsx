@@ -150,7 +150,7 @@ export function App() {
               </h1>
             </div>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 max-xl:mb-6">
               <Controller
                 control={control}
                 name="initialInvestment"
@@ -313,7 +313,7 @@ export function App() {
         </div>
 
         <div className="flex flex-col lg:grid lg:grid-rows-[1fr_1fr] lg:grid-cols-[1fr] lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-2 bg-background w-full h-full carousel">
-          <div className="carousel flex w-full h-full col-start-1 col-end-1 row-start-1 row-end-3">
+          <div className="carousel flex items-center w-full h-full col-start-1 col-end-1 row-start-1 row-end-3">
             <div
               id="slide1"
               className="carousel-item relative w-full h-full flex flex-col"

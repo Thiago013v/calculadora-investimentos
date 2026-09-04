@@ -15,7 +15,7 @@ export function PopupTheme({ closePopup, popup }: PopupThemeType) {
 
   return (
     <div
-      className={` w-[80%] md:w-[30%] h-[40%] p-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background z-10 rounded-lg flex flex-col gap-10 ${popup ? "visible opacity-100 transition-all duration-300" : "invisible opacity-0 transition-all duration-300"}`}
+      className={` w-[80%] h-[45%] md:w-[30%] lg:h-[30%] p-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background z-10 rounded-lg flex flex-col gap-10 ${popup ? "visible opacity-100 transition-all duration-300" : "invisible opacity-0 transition-all duration-300"}`}
     >
       <div className="flex flex-row justify-between items-center">
         <h2 className="text-center text-2xl text-text flex flex-row items-center gap-2">
