@@ -22,7 +22,7 @@ export function PopupInformation({ closePopup, popup }: PopupInformationType) {
 
   return (
     <div
-      className={`carousel w-[100%] md:h-[70%] md:w-[50%] lg:h-[50%] lg:w-[30%]  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background z-10  rounded-lg ${popup ? "visible opacity-100 transition-all duration-300 flex flex-row" : "invisible opacity-0 transition-all duration-300"}`}
+      className={`carousel w-full md:h-[70%] md:w-[50%] lg:h-[55%] lg:w-[35%]  absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background z-10  rounded-lg ${popup ? "visible opacity-100 transition-all duration-300 flex flex-row" : "invisible opacity-0 transition-all duration-300"}`}
     >
       <div id="info1" className="carousel-item relative w-full">
         <div className="flex flex-col justify-between items-center p-4">

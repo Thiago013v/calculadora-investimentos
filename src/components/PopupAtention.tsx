@@ -11,7 +11,7 @@ export function PopupAtention({ popupState, closePopup }: PopupAtentionType) {
 
   return (
     <div
-      className={`w-[30%] h-[60%] p-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background z-10  rounded-lg ${popupState ? "visible opacity-100 transition-all duration-300 flex flex-col justify-between" : "invisible opacity-0 transition-all duration-300"}`}
+      className={`w-full h-[65%] md:w-[60%] md:h-[40%] lg:w-[30%] lg:h-[60%] p-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background z-10  rounded-lg ${popupState ? "visible opacity-100 transition-all duration-300 flex flex-col justify-between" : "invisible opacity-0 transition-all duration-300"}`}
     >
       <IoMdInformationCircleOutline className="text-8xl text-info w-full" />
 

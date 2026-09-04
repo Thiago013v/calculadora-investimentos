@@ -12,7 +12,7 @@ export function PopupLanguage({ closePopup, popup }: PopupLanguageType) {
 
   return (
     <div
-      className={`w-[80%] md:w-[50%] lg:w-[30%] md:h-[45%] lg:h-[40%] p-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background z-10 rounded-lg flex flex-col gap-10 ${popup ? "visible opacity-100 transition-all duration-300" : "invisible opacity-0 transition-all duration-300"}`}
+      className={`w-[80%] h-[50%] md:w-[60%] md:h-[50%] lg:w-[35%] lg:h-[50%] max-h-77 p-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-background z-10 rounded-lg flex flex-col gap-10 ${popup ? "visible opacity-100 transition-all duration-300" : "invisible opacity-0 transition-all duration-300"}`}
     >
       <div className="flex flex-row justify-between items-center">
         <h2 className="text-center text-2xl text-text flex flex-row items-center gap-2">
