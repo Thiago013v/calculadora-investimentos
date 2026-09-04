@@ -1,0 +1,16 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { App } from "./App.tsx";
+import { LanguageContextProvider } from "./contexts/LanguageContextProvider.tsx";
+import { ThemeContextProvider } from "./contexts/ThemeContextProvider.tsx";
+import "./index.css";
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <ThemeContextProvider>
+      <LanguageContextProvider>
+        <App />
+      </LanguageContextProvider>
+    </ThemeContextProvider>
+  </StrictMode>,
+);
